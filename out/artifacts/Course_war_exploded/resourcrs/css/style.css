@@ -1,0 +1,123 @@
+
+body{
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.container{
+    width: 100%;
+    height: 100%
+}
+.header{
+    /*background-color: #9F9F9F;*/
+    background-color: transparent;
+    height: 10%;
+    text-align: center
+}
+.menu{
+    /*background-color: #9F9F9F;*/
+    background-color: transparent;
+    height: 89%;
+    width: 10%;
+    float: left;
+}
+.general{
+    /*background-color: #E9E9E9;*/
+    background-color: transparent;
+    border-radius: 50px 0px 50px 0px;
+    height: 89%;
+    width: 90%;
+    float: left;
+    background-image: url('../images/774372.jpg');
+    opacity: 0.8;
+}
+.fieldset{
+    margin-left: 30% ;
+    border-radius: 50px 0px 50px 0px;
+    width: 350px;
+    background-color: transparent;
+    border-color: transparent;
+    /*background-image: url('../images/774372.jpg');*/
+}
+.textField{
+    margin-left: 29px;
+    margin-top: 12px;
+    display: inline-block;
+    width: 97px;
+    color: white;
+}
+/*.textFieldForTeacher{*/
+    /*margin-left: 35px;*/
+    /*margin-top: 12px;*/
+    /*display: inline-block;*/
+    /*width: 85px;*/
+
+/*}*/
+/*.generalButtons{*/
+    /*margin-left: 35px;*/
+    /*margin-top: 10px;*/
+/*}*/
+.saveBtn{
+    outline: none;
+    margin-top: 30px;
+    margin-left: 36%;
+    width: 48%;
+    height: 32px;
+    font-size: 100%;
+    background: #0000003b;
+    border-radius: 30px 0px 30px 0px;
+    color: white;
+}
+/*.generalButtons2{*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px*/
+/*}*/
+.sector{
+    width: 85px;
+    display: inline-block;
+}
+.gender{
+    margin-left: 118px;
+    margin-top: 12px
+}
+.language{
+    margin-right: 10px;
+    /*border-radius: 15px 0px 15px 0px;*/
+}
+.footer{
+    /*background-color: #9F9F9F;*/
+    background-color: transparent;
+    clear: both;
+    text-align: center;
+}
+.menuBtn{
+    outline: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    font-size: 100%;
+    background: transparent;
+    border-radius: 30px 0px 30px 0px;
+    color: white;
+}
+
+.dataTables_length  label  select{
+    border-radius: 15px 0px 15px 0px ;
+}
+#sectorAddStudent{
+    /*width: 195px;*/
+    height: 22px;
+}
+.logout-img{
+    float: right;
+    margin-top: -40px;
+}
+#accordion{
+    min-height: 160px;
+}
+#advancedSearch {
+    height: 200px;
+}
+.inputField{
+    outline: none;
+    border-radius: 12px 0px 12px 0px;
+    width: 195px;
+}
